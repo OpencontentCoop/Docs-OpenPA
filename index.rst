@@ -11,7 +11,7 @@ La piattaforma dispone di una serie di moduli indipendenti tra loro, ma interope
 .. _h5c1e586a5c30103f764e51385b785135:
 
 Dati e classi di contenuti
---------------------------
+==========================
 
 La progettazione della piattaforma OpenPA e dei micro-servizi è stata fortemente orientata alla strutturazione dei dati. Questo rende più semplice la gestione e la diffusione multicanale delle informazioni, oltre a consentire l’apertura dei dati raccolti nella piattaforma stessa (Open Data). Alcune iniziative progettuali hanno favorito il costante perfezionamento del modello dati sotteso, avvicinandolo sempre più a quello di un’ontologia formale; tra queste:
 
