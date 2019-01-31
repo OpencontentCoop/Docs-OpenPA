@@ -4,13 +4,13 @@
 from __future__ import unicode_literals
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Manuale OpenSegnalazioni"
+settings_project_name = "Piattaforma OpenPA"
 settings_copyright_copyleft = 'Opencontent'
 settings_editor_name = 'Opencontent'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'manuale-opensegnalazioni'
-settings_file_name = 'manuale-opensegnalazioni'
+settings_basename = 'documentazione-openpa'
+settings_file_name = 'documentazione-openpa'
 
 # -- No need to change below here
 
