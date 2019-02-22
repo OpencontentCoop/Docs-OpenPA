@@ -4,9 +4,13 @@
 Piattaforma OpenPA
 ******************
 
-La piattaforma OpenPA, è utilizzata in oltre 200 enti locali e società pubbliche, la maggior parte in Trentino. Si tratta di una suite molto flessibile, esito di un’intensa attività di co-progettazione con diversi enti pubblici, che permette di ripensare le modalità di comunicazione con i cittadini in una chiave innovativa, trasparente e moderna. 
+La piattaforma OpenPA facilita il dialogo tra PA e Cittadino, secondo il paradigma dell'OpenGovernment; costituisce un supporto pratico per gestire la Trasformazione Digitale negli enti locali, stimolando la cittadinanza attiva secondo una logica di trasparenza ed accountability basata sui dati.
 
-La piattaforma dispone di una serie di moduli indipendenti tra loro, ma interoperabili, chiamati anche “micro-servizi”\ [#F1]_\ , che vengono forniti in modalità As A Service (SaaS) e che possono xessere attivati in tempi diversi a seconda delle priorità o delle necessità organizzative dell’ente che li adotta; i moduli su cui OpenContent ha maggiormente investito in questi anni sono finalizzati in particolare a migliorare l’interazione tra cittadini (associazioni, imprese, famiglie), dipendenti (funzionari, dirigenti) ed amministratori locali (parte politica); in taluni casi, come per la Stanza del Cittadino o OpenSegnalazioni, i micro-servizi sono pensati per coinvolgere anche più enti nel dialogo con il cittadino (ad esempio, nei contesti di gestione associata dei servizi o unioni di comuni). 
+La piattaforma dispone di una serie di componenti (micro-servizi) progettati in funzione del Piano Triennale e del CAD, rilasciati in open source, attivabili secondo le necessità dei singoli enti.
+
+Tutti i micro-servizi sono utilizzabili on-line, anche da smartphone, e sono interoperabili via API.
+
+La piattaforma è quindi particolarmente funzionale al governo del territorio (OpenGovernance), come dimostrato dal caso studio ComunWeb (Consorzio dei Comuni Trentini).
 
 .. _h5c1e586a5c30103f764e51385b785135:
 
@@ -74,24 +78,106 @@ OC-GDPR
 
 E’ un modulo che consente di gestire la raccolta del consenso informato per ognuno dei punti che prevedono un inserimento di dati sensibili da parte dell’utente (form di registrazione e di contatto), nel rispetto del  regolamento europeo UE 679/2016 in materia di protezione dei dati personali. E’ applicabile a qualunque microservizio di seguito descritto.
 
-.. _h5471467e15141c27114f423f1e76327c:
+.. _h5114354664c425a37432e224c6b4812:
 
-I microservizi
-==============
+Opencity
+--------
 
-* Opencity vedi il \ |LINK8|\  su readthedocs)
+Si tratta di un modello di portale web adatto a promuovere le azioni di governo dell'amministrazione attraverso tutti i canali ed i dispositivi digitali disponibili (pc, tablet, smartphone, totem, monitor dedicati). Conforme alle linee guida ed alle nuove direttive di Design Italia (Agid), guida i redattori (funzionari, dirigenti, amministratori, associazioni) ad organizzare facilmente il contenuto e a presentarlo in forma pubblica, anche attraverso strumenti quali calendari e mappe. Tutto il contenuto è indicizzato e disponibile attraverso un motore di ricerca unico basato su filtri e suggerimenti automatici.
 
-* OpenTrasparenza (vedi il \ |LINK9|\  su readthedocs)
+Vedi il \ |LINK8|\  su readthedocs
 
-* SpaziComuni (vedi il \ |LINK10|\  su readthedocs)
+.. _h4a61d1365a12e33282a282588056:
 
-* OpenAgenda (vedi il \ |LINK11|\  su readthedocs)
+OpenTrasparenza
+---------------
 
-* OpenSegnalazioni (vedi il \ |LINK12|\  su readthedocs)
+Permette di gestire la sezione "Amministrazione Trasparente" del sito web di un ente, in modalità conforme a quanto previsto dal D.Lgs. 33/2013, modificato dal D.Lgs. 97/2016, i cui dati strutturati vengono gestiti secondo circa 60 classi informative ed esposti, oltre che come pagine web, attraverso formati standard e aperti, seguendo il paradigma dell'Open Data.
 
-* Stanza del Cittadino (vedi il \ |LINK13|\  su readthedocs)
+La strutturazione dei dati consente di accompagnare gli enti nel rispetto della norma, evidenziando i dati più importanti attraverso rappresentazioni tabellari, ricercabili ed ordinabili.
 
-* OpenConsultazioni (vedi il \ |LINK14|\  su readthedocs)
+La piattaforma offre numerose funzionalità a supporto di redattori quali ad esempio un cruscotto per la validazione dei dati e dei formati (XML), prima di trasmetterli ad ANAC (Adempimenti ex legge 190/2012) e supporta varie tecniche per l’importazione e l’esportazione dei dati.
+
+vedi il \ |LINK9|\  su readthedocs
+
+.. _h6c4b2b3f621287e5341757861557e:
+
+SpaziComuni
+-----------
+
+Gestione delle prenotazioni di spazi e attrezzature pubbliche. Permette alle amministrazioni pubbliche di esporre sul web le strutture disponibili alla cittadinanza e alle associazioni, che a loro volta possono procedere alla prenotazione in modo semplice: il calendario della disponibilità è pubblico e facilmente consultabile on-line; la prenotazione richiede un semplice login; il pagamento è gestito ed integrato nel componente; l’iter è monitorabile in tempo reale.
+
+L’amministratore sa in qualsiasi momento quali sale sono prenotate, quali invece sono libere.
+
+vedi il \ |LINK10|\  su readthedocs
+
+.. _h6678723070634860455f58573c6c4b26:
+
+OpenAgenda
+----------
+
+Il calendario degli eventi partecipato dai cittadini. Le attività di aggiornamento dei dati vengono gestite direttamente dagli attori che animano la vita culturale e le comunità locali. L’obiettivo di OpenAgenda è anche quello di rafforzare le relazioni tra le Pubbliche Amministrazioni locali e il cittadino. Le associazioni culturali e sportive (cittadini) vengono abilitate (attraverso un sistema di autenticazione) ad inserire gli eventi da loro organizzati e ad aggiornare il proprio profilo (contatti, orari delle sedi, referenti, ...), mentre l’ente pubblico mantiene un ruolo più strategico di monitoraggio dell’attività redazionale. L’ente è inoltre in grado, con una semplice moderazione, di promuovere tali iniziative culturali attraverso i canali istituzionali (es. Proprio sito web, portali culturali regionali, il Portale Europeo dei Dati Aperti, il portale del MiBACT), il cui scambio è facilitato dalla conformità agli standard ontologici (Cultural-ON e CPEV-AP_IT).  Il sistema produce automaticamente un volantino PDF con dei QR-Code che rimandano ad ogni singolo evento pubblicato online. Ciascun evento può essere promosso dai visitatori attraverso funzionalità social (bookmarking su Google Calendar, iCalendar, Outlook, etc… e sharing).
+
+vedi il \ |LINK11|\  su readthedocs
+
+.. _hd703046493e1453487e2a5c261d342b:
+
+OpenSegnalazioni
+----------------
+
+Gestione trasparente delle segnalazioni del cittadino. OpenSegnalazioni favorisce il dialogo con i cittadini: raccoglie suggerimenti, osservazioni e segnalazioni legate al territorio, permette al cittadino che ha segnalato e a tutti i suoi concittadini di seguire l’iter legato alla sua segnalazione in tempo reale ed in totale trasparenza, supporta la gestione delle procedure interne all’ente per una risposta risolutiva alle segnalazioni ricevute.
+
+Il sistema consente ai cittadini di inserire una segnalazione anche da mobile, utilizzando il supporto di una mappa geografica che ne intercetta automaticamente la posizione.
+
+L'amministrazione prende in carico la segnalazione, provvedendo ad informare l’ufficio competente al fine di far fronte al problema e risolverlo. Ad iter concluso il cittadino riceve una notifica sull’esito della sua segnalazione. Il sistema, integrato con OpenMonitor, consente inoltre all'ente di generare report grafici per misurare le performance relative alla gestione delle segnalazioni dei cittadini.
+
+vedi il \ |LINK12|\  su readthedocs
+
+.. _h745b2140764f80567357f2d6249587f:
+
+Stanza del Cittadino
+--------------------
+
+vedi il \ |LINK13|\  su readthedocs
+
+.. _h2b232a2e5776c26594a1d46723f3016:
+
+OpenConsultazioni
+-----------------
+
+Gestione delle consultazioni civiche. Questo micro-servizio accompagna amministrazione e cittadinanza nelle consultazioni pubbliche, permettendo di identificare tematiche di interesse, raccogliere idee, feedback, valutare la soddisfazione degli utenti e visualizzare i risultati ottenuti. 
+
+L’amministrazione propone un tema sul quali chiede ai cittadini di esprimere la propria opinione. Il tipo di risposta che i cittadini possono dare è configurabile a seconda delle esigenze dell’Ente. Per raccogliere in maniera efficace il \ |STYLE0|\  dei cittadini l’analisi sui dati raccolti va comunque svolta in maniera qualitativa.
+
+vedi il \ |LINK14|\  su readthedocs
+
+.. _h76194c44b583f222e57223a59762d59:
+
+OpenDUP
+-------
+
+Gestione trasparente del Documento Unico di Programmazione
+
+.. _h5e375412c751575544d287633b212d:
+
+OpenUfficioStampa
+-----------------
+
+Gestione strutturata della comunicazione istituzionale, per enti di medie e grandi dimensioni
+
+.. _h7c335e27fa5b5f143147e39347a6a:
+
+OpenCollaboration
+-----------------
+
+gestione collaborativa della competenza interna alla PA
+
+.. _h4e382a5246a7f4b4cf73a6868262c:
+
+EasyVocs
+--------
+
+(vocabolari a portata di mano): Rest API in JSON-LD, conformi alle ontologie di OntoPiA, schema.org e core vocabularies (ISA²)
 
 .. _h4d2f555c697b7b3646e1d6431c4c66:
 
@@ -149,7 +235,7 @@ Questa caratteristica lo rende uno strumento particolarmente adatto a gestire la
 
 Le classi informative costituiscono il perno attorno al quale ruota OpenPA e consentono ai redattori (o ai sistemi automatici che importano contenuti) di creare oggetti con uno specifico significato (ad esempio, l’evento, che è caratterizzato da un titolo, da una data di inizio, una di fine, una georeferenziazione legata al luogo in cui si svolge). Creare nuovi contenuti nel sito significa dunque assegnare un valore semantico ben definito a tutte le pagine web pubblicate. 
 
-OpenPA si evolve con particolare attenzione ai modelli ontologici che la PA è chiamata a seguire, in particolare quello europeo dei Core Vocabularies\ [#F2]_\  e quello italiano definito da AgID. I benefici che questa impostazione garantirà nel corso del tempo sono molteplici: maggior chiarezza per l’utente, migliore indicizzazione presso i motori di ricerca esterni (che premiano contenuti chiari e codificati secondo ontologie, quali schema.org), interoperabilità e dataset di elevata qualità, strutturati secondo standard ed attraverso REST API (vedi: Piano Triennale per l’Informatica, cap. 2. Modello strategico di evoluzione del sistema informativo della PA).
+OpenPA si evolve con particolare attenzione ai modelli ontologici che la PA è chiamata a seguire, in particolare quello europeo dei Core Vocabularies\ [#F1]_\  e quello italiano definito da AgID. I benefici che questa impostazione garantirà nel corso del tempo sono molteplici: maggior chiarezza per l’utente, migliore indicizzazione presso i motori di ricerca esterni (che premiano contenuti chiari e codificati secondo ontologie, quali schema.org), interoperabilità e dataset di elevata qualità, strutturati secondo standard ed attraverso REST API (vedi: Piano Triennale per l’Informatica, cap. 2. Modello strategico di evoluzione del sistema informativo della PA).
 
 Il CMS scelto supporta la generazione automatica di “nice URLs”, generando per ciascuna pagina del sito un “URL parlante”, composto dal nome dell’oggetto pubblicato e dalla sua posizione all’interno dell’albero dei contenuti, evitando automaticamente i caratteri speciali, rendendo sempre possibile l’apertura da qualsiasi browser e permettendo l’indicizzazione sui motori di ricerca esterni delle singole pagine. I redattori potranno inoltre creare degli alias per personalizzare i link alle pagine se necessario.
 
@@ -160,6 +246,9 @@ Il CMS supporta un sistema di gestione granulare dei permessi (ACL); consente di
 Il sistema consente anche di creare una o più aree riservate, il cui accesso può essere assegnato ai nuovi profili generati: redattore base, redattore avanzato, validatore e amministratore. Ad ogni profilo corrispondo diverse possibilità di intervento sui contenuti e sulla struttura del portale e del sito. Il sito supporta un numero illimitato di gruppi di aree riservate, permettendo la creazione di aree sulla base delle categorie necessarie: dipendenti, giornalisti, fondazioni. 
 
 .. bottom of content
+
+
+.. |STYLE0| replace:: *sentiment*
 
 
 .. |LINK1| raw:: html
@@ -226,8 +315,7 @@ Il sistema consente anche di creare una o più aree riservate, il cui accesso pu
 
 .. rubric:: Footnotes
 
-.. [#f1]  L’architettura micro-servizi è un approccio indirizzato allo sviluppo di applicazioni autonome ma interconnesse tra loro, che implementano una singola funzionalità svolgendo una funzione specifica. Questo rende il prodotto in grado di far fronte a esigenze numerose e differenti, rimanendo orientato ai servizi ed alle esigenze dei fruitori: i cittadini.  
-.. [#f2]  iniziativa di ISA² - Interoperability solutions for public administrations, businesses and citizens
+.. [#f1]  iniziativa di ISA² - Interoperability solutions for public administrations, businesses and citizens
 
 .. |IMG1| image:: static/Manuale_OpenPA_1.png
    :height: 413 px
